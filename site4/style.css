@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 100px;
+}
+
+.chocolate {
+    background-color: brown;
+    color: white;
+}
+
+.strawberry {
+    background-color: pink;
+}
