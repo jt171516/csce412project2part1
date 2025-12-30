@@ -1,0 +1,41 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.item {
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+}
+
+.guitar {
+    border-color: #ff9;
+    color: #ff9;
+}
+
+.piano {
+    border-color: #0ff;
+    color: #0ff;
+}
+
+.drum {
+    border-color: #f0f;
+    color: #f0f;
+}
