@@ -38,7 +38,7 @@ services:
     build: ./site4
     ports:
       - "8088:80"
-  # unique_5:
-  #   build: ./site5
-  #   ports:
-  #     - "8089:80"
+  unique_5:
+    build: ./site5
+    ports:
+      - "8089:80"
