@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Open Sans", Ariel, Tahoma, Verdana, sans-serif;
+}
+
+header {
+    background: #001d3d;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header nav h2 a{
+    text-decoration: none;
+    color: #fdc500;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+header nav h2 a:hover {
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fdc500;
+    transition: all 0.3s;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+footer {
+    padding: 1rem;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+}
+
+footer button {
+    border: 2px solid black;
+    background: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 80px;
+    border-radius: 1000px;
+    transition: all 0.3s;
+}
+
+footer button:hover {
+    border: 2px solid black;
+    background: black;
+    color:white;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 80px;
+    border-radius: 1000px;
+}
+
+#hero {
+    color: white;
+    background: #001d3d;
+    text-align: center;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#hero a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero-text {
+    padding: 1rem;
+    text-align: center;
+    float: left;
+    padding: 115px 5rem;
+    font-weight: bold;
+}
+
+#hero-text img {
+    margin: 1rem 0.5rem 0 0.5rem;
+    width: 30px;
+    height: 30px;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+}
+
+#headshot img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+#about {
+    max-width: 1000px;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+#about h2 {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+}
+
+#more {
+    padding: 1rem 0;
+    text-algin: center;
+}
+
+#more h2 {
+    text-align: center;
+}
+
+#more ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#more ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#more ul li a button {
+    border: 2px solid black;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    border-radius: 1000px;
+    transition: all 0.3s;
+}
+
+#more ul li a button:hover {
+    border: 2px solid black;
+    background: black;
+    color:white;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    border-radius: 1000px;
+}
+
+#portfolio {
+    max-width: 1000px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+#portfolio h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.project {
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    height:350px;
+    box-shadow: 0 4px 10px 0 grey;
+}
+
+.project a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-description h2 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.project-description h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.project-description p {
+    padding: 1rem;
+}
+
+.project img {
+    float: left;
+    height: 100%;
+    width: 40%; 
+    object-fit: cover;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.project-description {
+    float: right;
+    width: 60%;
+}
+
+#qualifications h1 {
+    background: #001d3d;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#interest {
+    background: #001d3d;
+}
+
+#interest p {
+    max-width: 1000px;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+#skills {
+    max-width: 1000px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+#skills h2{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.card {
+    height: 275px;
+    width: 275px;
+    background: #f0f0f0;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 grey;
+}
+
+.card h3{
+    text-align: center;
+    padding: 1rem;
+}
+
+.card ul {
+    padding-left: 1rem;
+}
+
+.card ul li {
+    padding: 0.5rem;
+}
+
+#resume {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#resume h2 {
+    padding-bottom: 2rem;
+}
+
+#service-page{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+#service-page h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+#service-page a {
+    text-decoration: none;
+    color: black;
+}
+
+.timeline {
+    display:flex;
+    justify-content: center;
+}
+
+.timeline h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.tl-line {
+    height: 100%;
+    width: 50%;
+    border-left: 5px solid #001d3d;
+}
+
+.tl-circle {
+    width: 15px;
+    height: 15px;
+    background: #fdc500;
+    border-radius: 50%;
+    transform: translate(-10px, 2.5rem);
+}
+
+.tl-date {
+    padding: 1rem;
+}
+
+.tl-card {
+    background: #f0f0f0;
+    margin: 0 1rem 2rem 1rem;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px 0 grey;
+}
+
+.tl-card h3 {
+    padding-top: 2rem;
+}
+
+.tl-card ul {
+    padding: 0 2rem 2rem 3rem;
+}
+
+.tl-card ul li {
+    padding: 0.5rem;
+}
+
+.tl-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
