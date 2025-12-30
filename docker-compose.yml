@@ -1,22 +1,44 @@
 version: '3'
+
 services:
-  web1:
-    image: my-nginx-container
+  identical_1:
+    build: ./identical_website
+    ports:
+      - "8080:80"
+  identical_2:
+    build: ./identical_website
     ports:
       - "8081:80"
-  web2:
-    image: my-nginx-container
+  identical_3:
+    build: ./identical_website
     ports:
       - "8082:80"
-  web3:
-    image: my-nginx-container
+  identical_4:
+    build: ./identical_website
     ports:
       - "8083:80"
-  web4:
-    image: my-nginx-container
+  identical_5:
+    build: ./identical_website
     ports:
       - "8084:80"
-  web5:
-    image: my-nginx-container
+
+  unique_1:
+    build: ./site1
     ports:
       - "8085:80"
+  unique_2:
+    build: ./site2
+    ports:
+      - "8086:80"
+  # unique_3:
+  #   build: ./site3
+  #   ports:
+  #     - "8087:80"
+  # unique_4:
+  #   build: ./site4
+  #   ports:
+  #     - "8088:80"
+  # unique_5:
+  #   build: ./site5
+  #   ports:
+  #     - "8089:80"
