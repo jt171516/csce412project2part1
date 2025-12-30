@@ -30,14 +30,14 @@ services:
     build: ./site2
     ports:
       - "8086:80"
-  # unique_3:
-  #   build: ./site3
-  #   ports:
-  #     - "8087:80"
-  # unique_4:
-  #   build: ./site4
-  #   ports:
-  #     - "8088:80"
+  unique_3:
+    build: ./site3
+    ports:
+      - "8087:80"
+  unique_4:
+    build: ./site4
+    ports:
+      - "8088:80"
   # unique_5:
   #   build: ./site5
   #   ports:
